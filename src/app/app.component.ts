@@ -11,7 +11,7 @@ export class AppComponent {
 
   constructor(private element:ElementRef,private renderer:Renderer2)
   {
-    let el=this.element.nativeElement;
+    
   }
    formatDoc(sCmd, sValue) {
     
